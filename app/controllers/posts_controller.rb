@@ -4,7 +4,8 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
-  def crate
+  def create
+    @post = Post.new(post_params)
   end
 
   def show
