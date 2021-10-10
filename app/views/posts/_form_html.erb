@@ -1,1 +1,6 @@
-<%= form_for @post %>
+<%= form_for @post do |f| %>
+
+<%= f.file_field :avatar %>
+<%= f.hidden_field :avatar_cache %>
+
+<% end %>
