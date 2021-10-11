@@ -375,7 +375,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  bootsnap (>= 1.4.2)
+  bootsnap (>= 1.1.0)
   bootstrap-sass (>= 3.4.1)
   byebug
   capybara (>= 2.15)
