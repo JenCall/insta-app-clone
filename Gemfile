@@ -33,7 +33,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'faker'
 
-
+gem 'simple_form'
 # Images upload to amazon
 # gem 'carrierwave', '0.10.0'
 # gem 'fog', '~> 1.37.0'

@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-  mount_uploader :image, ImageUploader
+  has_one_attached :image
 
   scope :active, -> { where active: true }
 end
