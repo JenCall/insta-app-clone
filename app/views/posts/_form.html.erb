@@ -1,6 +1,6 @@
 
-<%= simple_form_for(@post) do |f| %>
+<%= form_for(@post) do |f| %>
   <!-- [...] -->
-  <%= f.input :image, as: :file %>
+  <%= f.file_field :image, direct_upload: true, as: :file %>
   <%= f.submit "Submit Post", class: "btn btn-success" %>
 <% end %>
