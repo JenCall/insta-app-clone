@@ -1,5 +1,12 @@
-index.html.erb
-<% @posts.each do |post| %>
-<%= cl_image_tag @post.image.key, height: 300, width: 400, crop: :fill %>
-<% end %>
-<!--class:"img img-fluid">
+Test
+
+<div class="container">
+  <div class="row">
+    <div class=col-8>
+      <% @posts.each do |post| %>
+        <%= cl_image_tag @post.image.key, height: 300, width: 400, crop: :fill %>
+      <% end %>
+      <!--class:"img img-fluid"-->
+    </div>
+  </div>
+</div>
